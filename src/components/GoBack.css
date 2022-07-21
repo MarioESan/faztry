@@ -1,0 +1,30 @@
+.go_back_button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border: 1px solid rgb(9, 1, 1);
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: rgb(247, 247, 247);
+  cursor: pointer;
+}
+
+.go_back_button_text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(10, 9, 9);
+}
+
+@media (max-width: 968px) {
+  .go_back_button {
+    top: 3rem;
+    left: 3rem;
+    z-index: 10000;
+    padding: 0.5rem;
+    display: flex;
+  }
+
+  .go_back_button_text {
+    font-size: 1rem;
+  }
+}
